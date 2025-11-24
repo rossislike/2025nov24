@@ -1,0 +1,12 @@
+grpc: addrConn.createTransport failed to connect to {
+    
+    Addr: "127.0.0.1:2379", ServerName: "127.0.0.1:2379", 
+    
+}. 
+
+Err: connection error: desc = 
+"error reading server preface: 
+    read tcp 127.0.0.1:57110->127.0.0.1:2379: 
+    read: connection reset by peer"
+
+Err: connection error: desc = "error reading server preface: EOF"
